@@ -1,3 +1,103 @@
 <resources>
     <string name="app_name">AllOfPower</string>
+    <string name="record_your_screen_now">Record your screen now</string>
+    <string name="recorder">Recorder</string>
+    <string name="are_you_sure_want_to_delete_this_video">Are you sure want to delete \nthis video?</string>
+    <string name="my_video_is_empty">My video is empty\nTap to record the screen now</string>
+    <string name="share">Share</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="cut">Cut</string>
+    <string name="work">Work</string>
+    <string name="sort_by">Sort by</string>
+    <string name="name_ascending">Name Ascending</string>
+    <string name="name_descending">Name Descending</string>
+    <string name="date_ascending">Date Ascending</string>
+    <string name="date_descending">Date Descending</string>
+    <string name="countdown">Countdown</string>
+    <string name="_12mbps">12Mbps</string>
+    <string name="pause_recording_when_screen_off">Pause recording when screen off</string>
+    <string name="video_quality">Video Quality</string>
+    <string name="_3s">3s</string>
+    <string name="show_point">Show Point</string>
+    <string name="record_audio">Record Audio</string>
+    <string name="shake_phone_to_stop_recording">Shake phone to stop recording</string>
+    <string name="videogame">VideoGame</string>
+    <string name="cutting">Cutting</string>
+    <string name="name_s_existed">Name\'s existed</string>
+    <string name="ok">OK</string>
+    <string name="filter_result">Filter Result</string>
+    <string name="_10s">10s</string>
+    <string name="_5s">5s</string>
+    <string name="select_video">Select Video</string>
+    <string name="my_video">My video</string>
+    <string name="share_with_my_friends">Share with my friends</string>
+    <string name="facebook">Facebook</string>
+    <string name="messenger">Messenger</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="settings">Settings</string>
+    <string name="no_video">No video</string>
+    <string name="camera_permission_denied">chua cap quyen</string>
+    <string name="camera_permission_granted">Ban chua cap quyen</string>
+    <string name="camera_permission_not_available">cai gi do</string>
+    <string name="camera_access_required">required</string>
+    <string name="camera_permission_available">available</string>
+    <string name="select_video_is_empty_ntap_to_record_the_screen_now">Select video is empty\nTap to record the screen now</string>
+    <string name="let_s_start">Let\'s start</string>
+    <string name="draw_overlay_application">Draw overlay application</string>
+    <string name="_3">3</string>
+    <string name="write_external_storage_permission">Write External Storage Permission</string>
+    <string name="_2">2</string>
+    <string name="record_audio_permission">Record Audio Permission</string>
+    <string name="_1">1</string>
+    <string name="to_notification_access_please_enable">To notification access, Please enable:</string>
+
+
+    <string name="app_name_short">Screen Recorder</string>
+
+    <string name="widget_service_notification_text">
+    The recorder service is running. Tap to open the app.
+  </string>
+
+    <string name="start_recording">Record</string>
+    <string name="stop_recording">Stop</string>
+    <string name="recording_notification_text">Your screen is currently being captured…</string>
+    <string name="video_recorded_notification_text">
+    Video recorded successfully! Tap to view and share.
+  </string>
+
+    <string name="cd_start_recording">Start Recording</string>
+    <string name="cd_stop_recording">Stop Recording</string>
+    <string name="cd_stop_service">Stop Service</string>
+
+    <string name="quick_setting_name">Screen Record</string>
+
+    <string name="overlay_permission_prompt">Overlay Permission Required</string>
+    <string name="overlay_permission_prompt_desc">
+        Screen Recorder needs permission to draw overlays so that it can display things like countdowns and
+        controls over other apps.
+    </string>
+
+    <string name="storage_permission_prompt">Storage Permission Required</string>
+    <string name="storage_permission_prompt_desc">
+        Screen Recorder needs permission to access your phone\'s storage so that recordings can be saved and
+        listed again later.
+    </string>
+
+    <string name="permission_denied_note">You won\'t be able to use Screen Recorder unless that permission is granted.</string>
+    <string name="okay">Okay!</string>
+
+    <string name="app_name_short_withNumber" translatable="false">Screen Recorder (%1$d)</string>
+
+    <string name="recordings_empty_text">You have no recordings, yet…</string>
+
+    <string name="provide_feedback">Provide Feedback</string>
+
+    <string name="install_video_viewer">Please install a video viewer app, such as Google Photos.</string>
+    <string name="install_web_browser">Please install a web browser app, such as Google Chrome.</string>
+    <string name="img_bottom_home">img_bottom_home</string>
+    <string name="img_icon_record">img_icon_record</string>
 </resources>

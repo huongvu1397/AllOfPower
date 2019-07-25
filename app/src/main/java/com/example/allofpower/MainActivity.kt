@@ -3,8 +3,6 @@ package com.example.allofpower
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import com.example.allofpower.floatingview.FloatingManage
 import com.example.allofpower.services.FloatingService
 import kotlinx.android.synthetic.main.activity_main.*
 

@@ -1,4 +1,4 @@
-package com.example.allofpower.floatingview;
+package com.example.allofpower.floatingview_case1;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -20,10 +20,10 @@ import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import com.example.allofpower.R;
-import com.example.allofpower.floatingview.listener.FloatMoveListener;
-import com.example.allofpower.floatingview.listener.IFloatingView;
+import com.example.allofpower.floatingview_case1.listener.FloatMoveListener;
+import com.example.allofpower.floatingview_case1.listener.IFloatingView;
 
-import static com.example.allofpower.floatingview.FloatRootView.MARGIN_EDGE;
+import static com.example.allofpower.floatingview_case1.FloatRootView.MARGIN_EDGE;
 
 public class FloatingManage implements IFloatingView, FloatMoveListener {
 

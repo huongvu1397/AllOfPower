@@ -1,4 +1,4 @@
-package com.solar.file.screenrecorder.utils;
+package com.example.allofpower.floatingview_case2;
 
 import android.content.Context;
 import android.content.SharedPreferences;

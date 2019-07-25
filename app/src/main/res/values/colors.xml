@@ -3,4 +3,24 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorOrange">#FF6120</color>
+    <color name="colorBackground">#FE6847</color>
+    <color name="colorRed">#FD233D</color>
+    <color name="notification_icon_tint">#000</color>
+    <color name="red">#E53935</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorWhiteOpacity50">#80ffffff</color>
+    <color name="colorTrans">#00000000</color>
+    <color name="colorBlackOpacity10">#1a000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrey">#979797</color>
+    <color name="colorGrey2">#EEEEEE</color>
+    <color name="colorButtonBackground">#F3F3F3</color>
+    <color name="colorEditTextBackground">#EFEFF4</color>
+    <color name="colorClickSelect">#b3b3b3</color>
+    <color name="colorPrimary_lightTheme">#FFFFFF</color>
+    <color name="colorPrimaryDark_lightTheme">#F5F5F5</color>
+    <color name="colorPrimary_darkTheme">#090909</color>
+    <color name="colorPrimaryDark_darkTheme">#000000</color>
+    <color name="colorAccent_translucent">#402979FF</color>
 </resources>

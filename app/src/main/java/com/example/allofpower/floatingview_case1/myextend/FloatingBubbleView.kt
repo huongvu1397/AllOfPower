@@ -1,4 +1,4 @@
-package com.example.allofpower.floatingview.myextend
+package com.example.allofpower.floatingview_case1.myextend
 
 import android.content.Context
 import android.graphics.PixelFormat

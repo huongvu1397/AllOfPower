@@ -1,6 +1,6 @@
-package com.example.allofpower.floatingview.listener;
+package com.example.allofpower.floatingview_case1.listener;
 
-import com.example.allofpower.floatingview.FloatRootView;
+import com.example.allofpower.floatingview_case1.FloatRootView;
 
 public interface FloatMoveListener {
 

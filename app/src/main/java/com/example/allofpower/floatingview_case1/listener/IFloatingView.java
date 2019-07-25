@@ -1,8 +1,8 @@
-package com.example.allofpower.floatingview.listener;
+package com.example.allofpower.floatingview_case1.listener;
 
 import android.support.annotation.DrawableRes;
-import com.example.allofpower.floatingview.FloatView;
-import com.example.allofpower.floatingview.FloatingManage;
+import com.example.allofpower.floatingview_case1.FloatView;
+import com.example.allofpower.floatingview_case1.FloatingManage;
 
 
 public interface IFloatingView {

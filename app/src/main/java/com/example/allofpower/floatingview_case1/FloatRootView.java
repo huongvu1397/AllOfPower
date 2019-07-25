@@ -1,4 +1,4 @@
-package com.example.allofpower.floatingview;
+package com.example.allofpower.floatingview_case1;
 
 import android.content.Context;
 import android.os.Handler;
@@ -9,9 +9,9 @@ import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
-import com.example.allofpower.floatingview.listener.FloatClickListener;
-import com.example.allofpower.floatingview.listener.FloatMoveListener;
-import com.example.allofpower.floatingview.utils.SystemUtils;
+import com.example.allofpower.floatingview_case1.listener.FloatClickListener;
+import com.example.allofpower.floatingview_case1.listener.FloatMoveListener;
+import com.example.allofpower.floatingview_case1.utils.SystemUtils;
 
 public class FloatRootView extends FrameLayout {
     private WindowManager windowManager;

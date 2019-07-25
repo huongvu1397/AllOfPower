@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.solar.file.screenrecorder.mainapp.views.floatingview.FloatingBubbleView
+<com.example.allofpower.floatingview_case2.FloatingView
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="wrap_content"
@@ -66,4 +66,4 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
     </RelativeLayout>
-</com.solar.file.screenrecorder.mainapp.views.floatingview.FloatingBubbleView>
+</com.example.allofpower.floatingview_case2.FloatingView>

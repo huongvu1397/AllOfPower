@@ -1,4 +1,4 @@
-package com.example.allofpower.floatingview;
+package com.example.allofpower.floatingview_case1;
 
 import android.content.Context;
 import android.support.annotation.DrawableRes;
