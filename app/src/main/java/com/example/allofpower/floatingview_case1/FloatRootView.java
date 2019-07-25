@@ -4,15 +4,18 @@ import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
+import android.view.WindowManager;
 import android.widget.FrameLayout;
 import com.example.allofpower.floatingview.listener.FloatClickListener;
 import com.example.allofpower.floatingview.listener.FloatMoveListener;
 import com.example.allofpower.floatingview.utils.SystemUtils;
 
 public class FloatRootView extends FrameLayout {
-
+    private WindowManager windowManager;
+    private WindowManager.LayoutParams lParams;
     private Context mContext;
     //左右边距
     public static final int MARGIN_EDGE = 16;
@@ -34,6 +37,11 @@ public class FloatRootView extends FrameLayout {
     private int mScreenWidth;
     private int mScreenHeight;
 
+    public void setParams(WindowManager.LayoutParams params,WindowManager windowManager){
+        this.windowManager = windowManager;
+        this.lParams = params;
+
+    }
     public void setFloatClickListener(FloatClickListener magnetViewListener) {
         this.mMagnetViewListener = magnetViewListener;
     }
@@ -69,11 +77,11 @@ public class FloatRootView extends FrameLayout {
         }
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
+                Log.e("HVV1312","ACTION DOWN");
                 changeOriginalTouchParams(event);
                 updateSize();
                 mMoveAnimator.stop();
                 dealMoveEvent();
-
                 xDownInScreen = event.getRawX();
                 yDownInScreen = event.getRawY();
                 xUpScreen = xDownInScreen;
@@ -117,6 +125,8 @@ public class FloatRootView extends FrameLayout {
 
     private void updateViewPosition(MotionEvent event) {
         // 限制不可超出屏幕宽度
+        Log.e("HVV1312","7");
+
         float desX = mOriginalX + event.getRawX() - mOriginalRawX;
         if (desX <= 0) {
             desX = 0;
@@ -135,6 +145,10 @@ public class FloatRootView extends FrameLayout {
             desY = mScreenHeight - getHeight() - dp2px(MARGIN_EDGE_V);
         }
         setY(desY);
+
+        lParams.x = (int)desX;
+        lParams.y = (int)desY;
+        windowManager.updateViewLayout(this,lParams);
     }
 
     private void changeOriginalTouchParams(MotionEvent event) {
@@ -166,6 +180,7 @@ public class FloatRootView extends FrameLayout {
 //    }
 
     protected class MoveAnimator implements Runnable {
+
         private Handler handler = new Handler(Looper.getMainLooper());
         private float destinationX;
         private float destinationY;

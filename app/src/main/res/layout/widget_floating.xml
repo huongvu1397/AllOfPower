@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.solar.file.screenrecorder.mainapp.views.floatingview.FloatingBubbleView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:id="@+id/background_unclick"
+        android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center"
+               android:id="@+id/center_floating"
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:src="@drawable/ic_start_opacity"
+               android:scaleType="centerCrop"/>
+    <ImageView android:layout_gravity="center"
+               android:id="@+id/bottom_floating"
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:src="@drawable/ic_home_opacity"
+               android:scaleType="centerCrop"/>
+    <ImageView android:layout_gravity="center"
+               android:id="@+id/top_floating"
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:src="@drawable/ic_cut_opacity"
+               android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+            android:id="@+id/button_overlay"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:fitsSystemWindows="true"
+            android:padding="2dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_fab"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+    >
+        <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:src="@drawable/ic_fab_1"
+               />
+        <RelativeLayout
+                android:id="@+id/ic_home_click"
+                android:visibility="visible"
+                android:background="@color/colorTrans"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                    android:src="@drawable/ic_recorder"
+                    android:id="@+id/widget_image"
+                    android:layout_centerInParent="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+        </RelativeLayout>
+        <TextView
+                android:layout_centerInParent="true"
+                android:id="@+id/widget_timer"
+                android:textColor="@color/colorWhite"
+                android:textSize="13sp"
+                android:lines="1"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</com.solar.file.screenrecorder.mainapp.views.floatingview.FloatingBubbleView>

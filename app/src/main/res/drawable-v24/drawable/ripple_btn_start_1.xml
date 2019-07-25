@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="@color/colorGrey">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/_70sdp"/>
+            <solid android:color="@color/colorBlack" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/button_lets_start" />
+
+</ripple>
